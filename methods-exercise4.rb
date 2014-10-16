@@ -1,7 +1,6 @@
 # Methods - Exercise 4 & 5
 
-=begin 
-What will the following code print to the screen?
+# What will the following code print to the screen?
 
 def scream(words)
   words = words + "!!!!"
@@ -10,14 +9,12 @@ def scream(words)
 end
 
 scream("Yippeee")
-=end
 
 # => nothing
 
-=begin
-1) Edit the method in exercise #4 so that it does print words on the screen.
-2) What does it return now?
-=end
+
+# 1) Edit the method in exercise #4 so that it does print words on the screen.
+# 2) What does it return now?
 
 def scream(words)
 	words = words + "!!!!"

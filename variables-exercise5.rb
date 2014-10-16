@@ -1,7 +1,6 @@
 # Variables - Exercise 5
 
-=begin
-Look at the following programs...
+# Look at the following programs...
 
 
 x = 0
@@ -10,15 +9,14 @@ x = 0
 end
 puts x
 
-and...
+# and...
 
 y = 0
 3.times do
-  y+= 1
+  y += 1
   x = y
 end
 puts x
-=end
 
 # What does x print to the screen in each case? Do they both give errors? 
 # Are the errors different? Why?

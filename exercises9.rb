@@ -14,5 +14,5 @@ h[:e] = 5
 
 # 3. Remove all key:value pairs whose value is less than 3.5
 
-h.select {|k, v| v > 3.5} 
-h.delete_if {|k, v| v < 3.5}
+h.select { |k, v| v > 3.5 } 
+h.delete_if { |k, v| v < 3.5 }

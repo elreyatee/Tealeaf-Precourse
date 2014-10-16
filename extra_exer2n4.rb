@@ -1,6 +1,6 @@
 # Extras - Exercise 2 & 4
 
-#What will the following program print to the screen? What will it return?
+# What will the following program print to the screen? What will it return?
 
 def execute(&block)
   #block

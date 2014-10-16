@@ -4,15 +4,14 @@
 
 words = ["laboratory", "experiment", "Pans Labyrinth", "elaborate", "polar bear"]
 
-=begin
-words.each do |word|
-	if word.downcase.include?("lab")
-		puts "#{word} includes 'lab'"
-	else
-		puts "#{word}"
-	end
-end
-=end
+
+# words.each do |word|
+#	 if word.downcase.include?("lab")
+#	 	 puts "#{word} includes 'lab'"
+#	 else
+#	 	 puts "#{word}"
+#	 end
+# end
 
 def string_search(word)
 	if /lab/ =~ word
@@ -22,7 +21,6 @@ def string_search(word)
 	end
 end
 
-words.each do |word|
-	string_search(word)
-end
+words.each { |word| string_search(word) }
+
 

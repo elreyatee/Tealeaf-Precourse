@@ -10,19 +10,19 @@ family = {  uncles: ["bob", "joe", "steve"],
             aunts: ["mary","sally","susan"]
           }
 
-=begin
-arr = []
 
-family.select do |member, names|
-				if member == :sisters || member == :brothers
-					arr << family[member]
-				else
-					next
-				end
-			end
+# arr = []
 
-puts arr
-=end
+# family.select do |member, names|
+# 				if member == :sisters || member == :brothers
+# 					arr << family[member]
+# 				else
+# 					next
+# 				end
+# 			end
+
+# puts arr
+
 
 arr = family.select do |member, names|
 	member == :sisters || member == :brothers

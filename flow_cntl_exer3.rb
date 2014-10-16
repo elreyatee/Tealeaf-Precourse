@@ -1,10 +1,8 @@
 # Flow Control - Exercise 3
 
-=begin 
-Write a program that takes a number from the user between 0 and 100 
-and reports back whether the number is between 0 and 50, 50 and 100, 
-or above 100.
-=end
+# Write a program that takes a number from the user between 0 and 100 
+# and reports back whether the number is between 0 and 50, 50 and 100, 
+# or above 100.
 
 print "Please type a number between 0 and 100: "
 
